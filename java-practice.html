@@ -28,18 +28,38 @@
     zd = xd / yd;
     console.log(zd); //18.68898
 
-    firstName = 'Valeri';
-    console.log(firstName);
-    middleName = 'Nichol';
-    console.log(middleName);
-    lastName = 'Smith';
-    console.log(lastName);
+    firstName1 = 'Valeri';
+    console.log(firstName1);
+    middleName1 = 'Nichol';
+    console.log(middleName1);
+    lastName1 = 'Smith';
+    console.log(lastName1);
 
-    name = firstName + ' ' + middleName + ' ' + lastName;
+    name = firstName1 + ' ' + middleName1 + ' ' + lastName1;
     console.log(name);
     statement = 'my name is ' + name;
     console.log(statement);
     greeting = 'Hi, ' + statement + '!'
     console.log(greeting);
+
+    function squareNum (inputNum) {
+      var outputNum = inputNum * inputNum;
+      return outputNum
+    }
+    var ans1 = squareNum(5);
+    console.log(ans1);
+    var ans2 = squareNum(6);
+    console.log(ans2);
+    var ans3 = squareNum(7);
+    console.log(ans3);
+
+    function fullName(firstName, middleName, lastName) {
+      var bigName = firstName + ' ' + middleName + ' ' + lastName;
+      return bigName
+    }
+
+    var myName1 = fullName('valeri', 'nichol', 'smith')
+    console.log(myName1);
+
   </script>
 </html>
